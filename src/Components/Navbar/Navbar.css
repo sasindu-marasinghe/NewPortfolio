@@ -49,7 +49,7 @@
 .nav-mob-close {
   display: none; /* Both hidden by default */
 }
-@media(max-width:768px){
+@media(max-width:520px){
     .navbar{
         margin: 20px 50px;
     }
