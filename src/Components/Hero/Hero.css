@@ -53,6 +53,28 @@
 .hero-resume:hover{
     border-color:#B415FF ;
 }
+.hero-resume {
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 100%); /* Add the gradient background */
+    color: #FFF; /* Make the text white */
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Adjust the font size as needed */
+    display: inline-block; /* Ensures the link behaves like a button */
+    border: transparent;
+}
+.hero-resume .resume-link {
+    color: #FFF; /* Make text white */
+    text-decoration: none; /* Remove underline */
+}
+
+.hero-resume:hover {
+    border: 2px solid #FFF; /* Add white border on hover */
+    background: linear-gradient(264deg, #B415FF 10%, #DF8908 100%); /* Reverse gradient on hover */
+}
+
+
 @media(max-width:520px){
     .hero img{
         margin-top: 120px;

@@ -20,15 +20,16 @@ const Hero = () => {
           </AnchorLink>
         </div>
         <div className='hero-resume'>
-          <a 
-            href={resume} 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="resume-link"
-          >
-            My Resume
-          </a>
-        </div>
+  <a 
+    href={resume} 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="resume-link"
+  >
+    My Resume
+  </a>
+</div>
+
       </div>
     </div>
   );
